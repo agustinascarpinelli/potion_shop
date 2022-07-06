@@ -28,8 +28,28 @@ Para eso tenemos que crear un marketplace para que pueda elegir sus pociones de 
 
 ## Rutas
 
-- Productos: Para ver los productos disponibles el backend dispone de una ruta _/productos_ a la que se puede acceder con el metodo GET
-- Compras: Para realizar la compra el backend dispone una ruta _/compras_ a la que se puede acceder con el metodo POST y se debe enviar un array con los ids de las pociones compradas
+- Productos: Para ver los productos disponibles el backend dispone de una ruta /productos a la que se puede acceder con el metodo GET
+
+```
+GET /productos
+response: [
+  {
+    "id": 1,
+    "nombre": "HP 500",
+    "precio": 1,
+    "categoria": "Salud",
+    "descripcion": "Sube la vida del mago en 100 unidades",
+    "imagen": "http://localhost:3000/Icon1.png"
+  }
+]
+```
+
+- Compras: Para realizar la compra el backend dispone una ruta /compras a la que se puede acceder con el metodo POST y se debe enviar un objeto con el formato { itemsId: ARRAY_IDS }, donde ARRAY_IDS es un array con los ids de las pociones compradas
+
+```
+POST /compras
+body: { itemsId: [1,2,3,4] }
+```
 
 ## Demo
 
