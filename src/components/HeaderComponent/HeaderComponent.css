@@ -1,0 +1,5 @@
+@media screen and (max-width:420px) {
+    .title-nav{
+        display: none;
+    }
+}

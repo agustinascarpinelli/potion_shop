@@ -1,0 +1,27 @@
+
+.cart-back{
+    background-color: blueviolet;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 0.2rem;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+
+.cart-checkout{
+    background-color:blueviolet;
+    border-radius: 0.5rem;
+    color: white;
+
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.cart-checkout:disabled{
+    background-color: gray;
+}
+
+.cart-error{
+    color: red;
+}
