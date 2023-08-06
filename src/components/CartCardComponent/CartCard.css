@@ -1,18 +1,18 @@
-.cart-item{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:0.5rem;
-    border-bottom: 0.1rem solid grey;
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border-bottom: 0.1rem solid grey;
 }
 
-.cart-item img{
-    background-color: grey;
-    border-radius: 50%;
-    padding: 0.1rem;
+.cart-item img {
+  background-color: grey;
+  border-radius: 50%;
+  padding: 0.1rem;
 }
 
-.cart-item button{
-    color: grey;
-    font-size: 1.5rem;
+.cart-item button {
+  color: grey;
+  font-size: 1.5rem;
 }

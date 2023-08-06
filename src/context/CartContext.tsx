@@ -23,11 +23,11 @@ const cartReducer = (state: CartState, action: CartAction): CartState => {
         case 'ADD_PRODUCT':
             if (state.balance >= action.payload!.precio) {
                 const existItem = state.products.find((prod) => prod.id === action.payload!.id)
-                const existCat=state.products.find((prod)=>prod.categoria===action.payload!.categoria)
+                const existCat = state.products.find((prod) => prod.categoria === action.payload!.categoria)
                 if (existItem) {
                     return state;
-                }else if(existCat){
-                     return state;
+                } else if (existCat) {
+                    return state;
                 }
                 else {
                     return {

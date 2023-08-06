@@ -1,26 +1,19 @@
-.products-list{
-    display: flex;
-    flex-wrap: wrap;
-  
-
-
-
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.products-loader{
-    display: flex;
+.products-loader {
+  display: flex;
+  justify-content: center;
+}
+
+.error-products {
+  color: red;
+}
+
+@media screen and (max-width: 420px) {
+  .products-list {
     justify-content: center;
-    
-}
-
-.error-products{
-    color: red;
-}
-
-@media screen and (max-width: 420px){
-
-    .products-list{
-        justify-content: center
-    }
-
+  }
 }

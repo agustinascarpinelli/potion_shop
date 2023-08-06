@@ -33,20 +33,17 @@ export const ListProductsComponent = () => {
 
   return (
     <>
-{    loading ? (<div className='products-loader'><ClipLoader  color=' #8a2be2' size={100} loading={true}/></div>):
-    (   
-      
-      <div className='products-list'>
-      {products.map((product) => {
-        return <ProductCard key={product.id} product={product} />
-      })}
-    </div>
-    
-    )}
-    {error && <p className='text-center error-products'>Hubo un error cargando los productos, intente mas tarde nuevamente.</p>}
+      {loading ? (<div className='products-loader'><ClipLoader color=' #8a2be2' size={100} loading={true} /></div>) :
+        (
+
+          <div className='products-list'>
+            {products.map((product) => {
+              return <ProductCard key={product.id} product={product} />
+            })}
+          </div>
+
+        )}
+      {error && <p className='text-center error-products'>Hubo un error cargando los productos, intente mas tarde nuevamente.</p>}
     </>
-
-
-
   );
 };
