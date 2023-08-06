@@ -8,23 +8,7 @@
 
 ## Contexto
 
-Nuestro héroe 🧙‍♂️ necesita comprar pociones para combatir a 🐉 y salvar al mundo.
-
-Sin embargo no vamos a simplemente regalarle las pociones por ser nobles, vamos a aprovecharnos de su necesidad.
-
-Para eso tenemos que crear un marketplace para que pueda elegir sus pociones de una forma cómoda y nos de sus gemas con mas agrado.
-
-## Restricciones
-
-1. 🧙‍♂️ solo tiene 3 gemas asi que solo puede comprar pociones por un total de 3 gemas.
-2. Por restricciones gubernamentales solo podemos ofrecerle comprar solo una poción de cada categoría.
-3. 🧝‍♀️ la esposa de 🧙‍♂️ no nos permite venderle múltiples veces la misma poción, y no queremos averiguar que pasa si no la obedecemos.
-
-## Notas
-
-- Se debe visualizar en el medio de la barra de navegación la cantidad de gemas disponibles que le quedan a 🧙‍♂️ teniendo en cuenta los items que tiene en el carrito.
-- Se debe visualizar en la parte derecha de la barra de navegacion la cantidad de items en el carrito
-- Para realizar el carrito es preferible usar un Context
+Este proyecto es un marketplace de pociones para nuestro héroe 🧙‍♂️, quien necesita comprar pociones para combatir a 🐉 y salvar al mundo. Sin embargo, ¡no se las regalaremos fácilmente! Vamos a aprovecharnos de su necesidad y ofrecerle un límite de 3 gemas para realizar sus compras. Además, debido a restricciones gubernamentales, solo puede comprar una poción de cada categoría. Y, por supuesto, respetaremos las órdenes de 🧝‍♀️, su esposa, para no venderle múltiples veces la misma poción.
 
 ## Rutas
 
@@ -51,6 +35,18 @@ POST /compras
 body: { itemsId: [1,2,3,4] }
 ```
 
+
+## Tecnologias utilizadas:
+
+1. React.js
+2. TypeScript
+3. Axios
+4. Styled Components
+5. React Router DOM
+6. React Spinners
+7. JSON Server (para el backend de prueba)
+
+
 ## Demo
 
-![Alt Text](./demo.gif)
+![Alt Text](./demo2.gif)
