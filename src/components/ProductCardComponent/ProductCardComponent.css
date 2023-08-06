@@ -1,6 +1,6 @@
 .product-card{
     width: 14rem;
-    height: 16rem;
+    height: 18rem;
     margin: 1rem;
     border-radius: 0.5rem;
     text-align: center;
@@ -32,7 +32,7 @@
 
 .product-info{
     position: absolute;
-    left: 5%;
+    left: 2rem;
     top: 45%;
     text-align: start;
 }
@@ -41,7 +41,7 @@
 .product-info p{
     color: grey;
     font-size: 0.8rem;
-    margin-right: 0.2rem;
+    margin-right: 2rem;
 
 
 }
@@ -64,7 +64,7 @@
     position: absolute;
     transform: translateX(-50%);
     left: 50%;
-    bottom: 10%;
+    bottom: 1rem;
 }
 
 .btn-add:disabled{
