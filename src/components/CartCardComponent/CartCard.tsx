@@ -17,7 +17,7 @@ export const CartCard: React.FC<ProductProps> = ({ product }) => {
 
     return (
         <div className="cart-item  bg-stone-700">
-            <img src={product.imagen} />
+            <img src={product.imagen} alt={product.nombre} />
             <h1>{product.nombre}</h1>
             <button onClick={handleRemoveProduct}>x</button>
 
